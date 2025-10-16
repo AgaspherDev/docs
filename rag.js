@@ -1,11 +1,11 @@
   // Create the AI Assistant button
   const aiButton = document.createElement("button");
-  aiButton.textContent = "AI Assistant";
+  aiButton.textContent = "Ask AI";
   Object.assign(aiButton.style, {
     position: "fixed",
     bottom: "20px",
     right: "20px",
-    background: "#007bff",
+    background: "#059669",
     color: "#fff",
     border: "none",
     borderRadius: "8px",
