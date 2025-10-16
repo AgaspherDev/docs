@@ -14,6 +14,7 @@
     fontSize: "16px",
     boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
     zIndex: "10000",
+    id: 'ai-button'
   });
   document.body.appendChild(aiButton);
 
@@ -22,7 +23,7 @@
   Object.assign(modal.style, {
     position: "fixed",
     top: "0",
-    left: "0",
+    right: "0",
     width: "100vw",
     height: "100vh",
     backgroundColor: "rgba(0, 0, 0, 0.5)",
