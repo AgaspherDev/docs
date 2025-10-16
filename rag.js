@@ -4,7 +4,7 @@
   Object.assign(aiButton.style, {
     position: "fixed",
     bottom: "20px",
-    left: "20px",
+    right: "20px",
     background: "#007bff",
     color: "#fff",
     border: "none",
@@ -23,7 +23,7 @@
   Object.assign(modal.style, {
     position: "fixed",
     top: "0",
-    right: "0",
+    left: "0",
     width: "100vw",
     height: "100vh",
     backgroundColor: "rgba(0, 0, 0, 0.5)",
